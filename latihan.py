@@ -1,0 +1,41 @@
+print("SIMULASI")
+nama = str(input('masukan nama petualang: '))
+import time
+print("Pada suatu hari, ada seorang petualang bernama "+nama+ ". dia pergi ke sebuah tavern tua yang aneh, disana terdapat papan yang tertulis:")
+time.sleep(5)
+print("1. Dilarang menyampah")
+time.sleep(3)
+print("2. Dilarang berteriak")
+time.sleep(3)
+print("3. Dilarang memancing keributan")
+time.sleep(3)
+print("barangsiapa yang melanggar peraturan-peraturan diatas, maka akan langsung dibunuh")
+time.sleep(5)
+print("begitulah tulisan yang ada di papan tavern itu. "+nama+ " memasuki tavern itu dengan hati-hati dan waspada.")
+time.sleep(5)
+print('lalu '+nama+ ' terinjak paku yang ada di lantai kayu di depan pintu tavern, '+nama+ ' akan: ')
+time.sleep(5)
+print("1. TERIAK 2. menahan rasa sakit 3. TERIAK DENGAN KERAS")
+choose = str(input('[1], [2], atau [3]?: '))
+if choose == "1" :
+   print(nama+ " mati tertembak oleh pemilik tavern")
+if choose == "2" :
+   print(nama+ " menahan rasa sakit sambil meringis lalu melanjutkan perjalanan nya kedalam tavern")
+if choose == "3" :
+   print(nama+ " mati tertembak oleh pemilik tavern yang kesal dengan kebisingan yang disebabkan oleh "+nama)
+time.sleep(3)
+print("suasana di dalam tavern cukup ramai dan terawat, "+nama+ " sangat mengagumi tavern itu sampai ia tidak sengaja menyenggol dan menumpahkan minuman seorang warior. warior itu marah dan mengajak mu untuk bertarung, apa yang akan dilakukan "+nama+ " ?")
+time.sleep(7)
+print("1. ikut kesal dan bertarung dengan warior itu 2. mencoba kabur 3. meminta maaf dan menawarkan untuk mengganti minuman nya")
+choose = str(input('[1], [2], atau [3]?: '))
+if choose == "1" :
+   print(nama+ " dan warior mati tertembak oleh pemilik tavern saat bertarung")
+if choose == "2" :
+   print(nama+ " mati di tusuk oleh warior")
+if choose == "3" :
+   print("sang warior menjadi tenang dan menerima tawaran "+nama+ " ,sekaligus mengajak nya untuk minum bersama")
+time.sleep(5)
+print(nama+ " dan sang warior bersenang-senang, sang warior mengenalkan diri nya. Ia bernama Raflo. Setelah beberapa saat Raflo berpamitan kepada mu, ia mau menyusul teman-teman nya. Kalian berdua berlambaian tangan di depan tavern")
+time.sleep(8)
+print(nama+ " pun juga harus melanjutkan perjalanan nya")
+print("TAMAT")
